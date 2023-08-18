@@ -1,0 +1,32 @@
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #afafaf;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
+
+.small-text{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.text-color-1{
+    color: aqua;
+}
+
+.btn-primary {
+    color: #adb5bd;
+    background-color: #212529;
+    border-color: rgba(0, 255, 255, 0.75); /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: rgba(0, 255, 255, 0.75);
+    border-color: rgba(0, 255, 255, 0.75); /*set the color you want here*/
+}
